@@ -51,7 +51,7 @@ public class DynamicAssessmentArrayTest {
                 array.getSize() == size);
 
             // check that we retrieve the correct assessments back from the
-            // dynamic array 
+            // dynamic array
             for(int j=0; j < size; j++) {
                 Assessment assessment = array.get(j);
 
