@@ -23,7 +23,7 @@ public class ModuleTest {
             String moduleName = "CS" + x + ": MGP for Computer Scientists";
 
             // create a module
-            Module module = new Module(moduleCode, moduleName);
+            lab5.Module module = new lab5.Module(moduleCode, moduleName);
 
             assertTrue(
                 "getModuleCode does not return the correct module code",
@@ -41,7 +41,7 @@ public class ModuleTest {
         // run 100 tests
         for(int i=0; i<100; i++) {
             // create a module
-            Module module = new Module("CS141", "Functional Programming");
+            lab5.Module module = new lab5.Module("CS141", "Functional Programming");
 
             // add some assessments that do not exceed a total weight of 100
             int total = 0;
@@ -68,7 +68,7 @@ public class ModuleTest {
         // run 100 tests
         for(int i=0; i<100; i++) {
             // create a module
-            Module module = new Module("CS141", "Functional Programming");
+            lab5.Module module = new lab5.Module("CS141", "Functional Programming");
 
             // add some assessments that do not exceed a total weight of 100
             int total = 0;
